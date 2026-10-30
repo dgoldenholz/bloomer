@@ -1,0 +1,23 @@
+respondent,sequence_group,perceived_better,useful_bloomer,useful_mcq,reread_used_ai_or_discussed
+ret01,B,Bloomer,Moderately useful,Slightly useful,No
+ret02,A,Bloomer,Slightly useful,Not useful at all,No
+ret03,B,Both equally,Useful,Moderately useful,No
+ret04,B,Neither / not sure,Slightly useful,Moderately useful,Yes
+ret05,B,Tradtional MCQ,Not useful at all,Useful,No
+ret06,B,Bloomer,Useful,Slightly useful,No
+ret07,A,Tradtional MCQ,Not useful at all,Very useful,No
+ret08,A,Bloomer,,,No
+ret09,B,Neither / not sure,Slightly useful,Slightly useful,No
+ret10,A,Neither / not sure,Not useful at all,Not useful at all,No
+ret11,B,Both equally,Useful,Useful,No
+ret12,B,Neither / not sure,Moderately useful,Moderately useful,No
+ret13,B,Tradtional MCQ,Slightly useful,Useful,No
+ret14,B,Neither / not sure,Slightly useful,Moderately useful,No
+ret15,A,Tradtional MCQ,Moderately useful,Useful,No
+ret16,B,Neither / not sure,Moderately useful,Moderately useful,No
+ret17,A,Bloomer,Moderately useful,,No
+ret18,A,Neither / not sure,Useful,Moderately useful,No
+ret19,B,Neither / not sure,Not useful at all,Not useful at all,No
+ret20,B,Bloomer,Moderately useful,Slightly useful,No
+ret21,B,Both equally,Useful,Useful,No
+ret22,B,Neither / not sure,Not useful at all,Not useful at all,No

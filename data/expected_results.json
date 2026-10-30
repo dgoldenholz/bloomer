@@ -1,0 +1,131 @@
+{
+  "part1": {
+    "A": {
+      "n": 19,
+      "pct_correct_mean": 71.0526315789
+    },
+    "B": {
+      "n": 18,
+      "pct_correct_mean": 90.0
+    }
+  },
+  "permutation_seed": 20260914,
+  "retention": {
+    "headline": {
+      "ci_high": 18.5072697761,
+      "ci_low": -21.9834602523,
+      "n_a": 7,
+      "n_b": 15,
+      "p_value": 0.8596742116,
+      "theta": -1.7380952381
+    },
+    "perceived": {
+      "perceived_better": {
+        "Bloomer": 6,
+        "Both equally": 3,
+        "Neither / not sure": 9,
+        "Tradtional MCQ": 4
+      },
+      "useful_bloomer": {
+        "Moderately useful": 6,
+        "No answer": 1,
+        "Not useful at all": 5,
+        "Slightly useful": 5,
+        "Useful": 5
+      },
+      "useful_mcq": {
+        "Moderately useful": 6,
+        "No answer": 2,
+        "Not useful at all": 4,
+        "Slightly useful": 4,
+        "Useful": 5,
+        "Very useful": 1
+      }
+    },
+    "s1_exclusions": {
+      "ci_high": 15.9324852162,
+      "ci_low": -23.7896280734,
+      "n_a": 7,
+      "n_b": 14,
+      "p_value": 0.6835059078,
+      "theta": -3.9285714286
+    },
+    "s2_permutation": {
+      "ci_high": null,
+      "ci_low": null,
+      "n_a": 7,
+      "n_b": 15,
+      "p_value": 0.8748182287,
+      "theta": -1.7380952381
+    },
+    "s4_answered": {
+      "ci_high": 18.1363749386,
+      "ci_low": -22.2792320814,
+      "n_a": 7,
+      "n_b": 15,
+      "p_value": 0.8328486905,
+      "theta": -2.0714285714
+    },
+    "s5_items_correct": {
+      "ci_high": 0.8625056171,
+      "ci_low": -0.9672675219,
+      "n_a": 7,
+      "n_b": 15,
+      "p_value": 0.9061263436,
+      "theta": -0.0523809524
+    },
+    "welch": {
+      "ci_high": 20.2965277421,
+      "ci_low": -23.7727182183,
+      "n_a": 7,
+      "n_b": 15,
+      "p_value": 0.8652894055,
+      "theta": -1.7380952381
+    }
+  },
+  "survey": {
+    "comment_themes": {
+      "effort_time": 3,
+      "engagement": 2,
+      "grader_feedback": 2,
+      "prefers_writing": 3,
+      "task_design": 2,
+      "teaching": 2,
+      "unclear_expectations": 3
+    },
+    "comprehension_counts": {
+      "Bloomer": 11,
+      "Neither were very good": 2,
+      "No opinon": 1,
+      "The 5-question quiz": 11,
+      "They were about the same": 4,
+      "blank": 0
+    },
+    "difficulty_paired": {
+      "median_difference": 1.0,
+      "n_pairs": 29,
+      "p_value": 0.1460315921
+    },
+    "preference_counts": {
+      "A 5-question quiz": 15,
+      "Bloomer-AI": 6,
+      "No opinon": 1,
+      "Unsure": 7,
+      "blank": 0
+    },
+    "total_attempts": {
+      "mean": 6.5740740741,
+      "median": 6.0,
+      "n": 27,
+      "q1": 4.0,
+      "q3": 9.0
+    },
+    "total_minutes": {
+      "mean": 28.8738095238,
+      "median": 10.1,
+      "n": 28,
+      "q1": 7.9583333333,
+      "q3": 20.2041666667
+    }
+  }
+}

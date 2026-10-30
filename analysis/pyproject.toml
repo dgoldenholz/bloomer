@@ -1,0 +1,34 @@
+[project]
+name = "bloomer-retention"
+version = "0.1.0"
+description = "Reproducible 1-month retention analysis for the Bloomer counterbalanced crossover study"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "openpyxl",
+    "pandas>=2.1",
+    "scipy",
+    "statsmodels",
+]
+
+[project.scripts]
+bloomer-ingest = "bloomer_retention.ingest:main"
+bloomer-analyze = "bloomer_retention.run:main"
+bloomer-report = "bloomer_retention.bundle.run:main"
+bloomer-export-public = "bloomer_retention.public_export:main"
+bloomer-reproduce-public = "bloomer_retention.public_reproduce:main"
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bloomer_retention"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["restricted: needs the study's restricted de-identified data and outputs (skipped when absent)"]
